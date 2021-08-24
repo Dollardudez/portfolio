@@ -1,22 +1,20 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route} from  "react-router-dom";
-import Home from './routes/Home';
-import About from './routes/About';
-import Contact from './routes/Contact';
-import Portfolio from './routes/Portfolio';
+import Home from './components/Home';
+import About from './components/About';
+import Navbar from './components/About';
+import Contact from './components/Contact';
+import Portfolio from './components/Portfolio';
 
 
 
 const App = () => {
   return (
-    <Router>
-      <Switch>
-          <Route exact path="/" component={Home}/>
-          <Route exact path="/portfolio" component={Portfolio}/>
-          <Route exact path="/about" component={About}/>
-          <Route exact path="/contact" component={Contact}/>
-      </Switch>
-    </Router>
+    <main className="text-gray-400 bg-gray-900 body-font">
+      <Navbar />
+      <About />
+      <Portfolio />
+      <Contact />
+    </main>
   );
 }
 
