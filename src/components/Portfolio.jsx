@@ -40,6 +40,14 @@ const Portfolio = () => {
                       <p className="leading-relaxed">{project.description}</p>
                     </div>
                   </div>
+                  <button className="m-11 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                  <img src="./media/github.png"></img>
+                    Code</button>
+                  <button className="m-11 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 11l7-7 7 7M5 19l7-7 7 7" />
+                  </svg>
+                    Demo</button>
                 </a>
               ))}
             </div>
