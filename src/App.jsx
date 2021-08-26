@@ -3,6 +3,8 @@ import About from './components/About';
 import Navbar from './components/Navbar';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
+
 
 
 
@@ -12,6 +14,7 @@ const App = () => {
       <Navbar />
       <About />
       <Portfolio />
+      <Resume/>
       <Contact />
     </main>
   );

@@ -13,9 +13,9 @@ const Portfolio = () => {
                 Apps I've Built
               </h1>
               <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-                facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-                fuga dolore.
+                I was properly introduced to web development in May of 2020, since then, I've decided that 
+                web development is the career for me. If some of these projects seem half finished, it is because they ARE!
+                I plan to continue working on these projects until I am satisfied with their aesthetic appeal and functionality.
               </p>
             </div>
             <div className="flex flex-wrap -m-4">
@@ -27,7 +27,7 @@ const Portfolio = () => {
                   <div className="flex relative">
                     <img
                       alt="gallery"
-                      className="absolute inset-0 w-full h-full object-contain object-center"
+                      className="absolute inset-0 w-full h-full object-cover object-center"
                       src={project.image}
                     />
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
@@ -44,8 +44,8 @@ const Portfolio = () => {
                   <img src="./media/github.png"></img>
                     Code</button>
                   <button className="m-11 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 11l7-7 7 7M5 19l7-7 7 7" />
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 11l7-7 7 7M5 19l7-7 7 7" />
                   </svg>
                     Demo</button>
                 </a>
