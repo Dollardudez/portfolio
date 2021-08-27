@@ -6,9 +6,10 @@ export const projects = [
       subtitle: "PERN Stack",
       description:
         `I wanted to learn ReactJS, so I started coding this Restaurant review site. I plan to pick up where I left off when I finish 
-        my portfolio site and when I finish the MHK Chests site`,
+        my portfolio site and when I finish the MHK Chests site.`,
       image: "./media/pern-stack.png",
-      link: "https://www.robclancyprojects.com/",
+      github: "https://github.com/Dollardudez/restaraunt-review",
+      link: "",
     },
     {
       title: "Rocket Man",
@@ -17,6 +18,7 @@ export const projects = [
         `A little project to help me get better at Python. Basic functionality is all here. The game has power-ups, a level system, 
         and a points system. I plan optimise and prettify the game when I have more time.`,
       image: "./media/python-game.png",
+      github: "https://github.com/Dollardudez/AlienInvaders",
       link: "",
     },
     {
@@ -26,6 +28,7 @@ export const projects = [
       `This started as a Summer long project in CIS 526 at K-State, I have since added more styling and plan to continue
       making the site prettier and more functional.`,
       image: "./media/mhk-chests-2.PNG",
+      github: "https://github.com/Dollardudez/MyWebAppProject",
       link: "https://peaceful-sierra-47377.herokuapp.com/",
     },
     {
@@ -34,8 +37,20 @@ export const projects = [
       description:
         `A 3NF normalized database system designed for football managers and avid fans alike. The database allows its 
         users to query, update, and create information. The system was designed and implemented by myself, 
-        Nicholas Hornung, and Kevin Sutcliffe as a capstone project for CIS 560`,
+        Nicholas Hornung, and Kevin Sutcliffe as a capstone project for CIS 560.`,
       image: "./media/world-cup-pic.png",
-      link: "https://github.com/Dollardudez/CIS560-Team2",
+      github: "https://github.com/Dollardudez/CIS560-Team2",
+      link: "",
     },
+    {
+      title: "Bleakwind Buffet Point of Sale",
+      subtitle: "C# and WPF",
+      description:
+        `This project was completed as another semester long project at K-State. It has a full backend system written 
+        in C#. The front end utilizes WPF in order to display the menu system. This was one of my first large projects. 
+        I now help other students as a TA for this class.`,
+      image: "./media/bleakwind-buffet.png",
+      github: "https://github.com/Dollardudez/bleakwind-buffet",
+      link: "",
+    }
   ];

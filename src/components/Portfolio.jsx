@@ -4,6 +4,8 @@ import { projects } from "../data";
 
 
 const Portfolio = () => {
+
+  
     return (
         <section id="projects" className="text-gray-400 bg-gray-900 body-font">
           <div className="container px-5 py-10 mx-auto text-center lg:px-40">
@@ -17,12 +19,13 @@ const Portfolio = () => {
                 web development is the career for me. If some of these projects seem half finished, it is because they ARE!
                 I plan to continue working on these projects until I am satisfied with their aesthetic appeal and functionality.
               </p>
+              <h5 className="lg:w-2/3 mx-auto leading-relaxed text-base text-green-500">
+                ATTENTION! the only Demo link that works as of now is the MHK Chests link!!!!
+              </h5>
             </div>
             <div className="flex flex-wrap -m-4">
               {projects.map((project) => (
-                <a
-                  href={project.link}
-                  key={project.image}
+                <div
                   className="sm:w-1/2 w-100 p-4">
                   <div className="flex relative">
                     <img
@@ -40,15 +43,17 @@ const Portfolio = () => {
                       <p className="leading-relaxed">{project.description}</p>
                     </div>
                   </div>
-                  <button className="m-11 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-                  <img src="./media/github.png"></img>
-                    Code</button>
-                  <button className="m-11 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 11l7-7 7 7M5 19l7-7 7 7" />
-                  </svg>
-                    Demo</button>
-                </a>
+                  <button onClick={()=> window.location.href=project.github} className="m-11 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                    <img src="./media/github.png"></img>
+                      Code
+                  </button>
+                  <button onClick={()=> window.location.href=project.link} className="m-11 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 11l7-7 7 7M5 19l7-7 7 7" />
+                    </svg>
+                      Demo
+                  </button>
+                </div>
               ))}
             </div>
           </div>

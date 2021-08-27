@@ -7,7 +7,7 @@ const Resume = () => {
     
     return (
         <section id="resume">
-          <div>
+          <div className="flex flex-col w-full items-center">
               <Document file={samplePDF}>
                 <Page pageNumber={1} scale={1.5}/>
               </Document>
