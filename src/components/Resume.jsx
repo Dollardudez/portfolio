@@ -1,7 +1,9 @@
-import React from 'react'
-import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
+import React from 'react';
+import { pdfjs } from 'react-pdf';
+import { Document, Page } from 'react-pdf';
 import samplePDF from '../resume.pdf';
 
+pdfjs.GlobalWorkerOptions.workerSrc = 'pdf.worker.min.js';
 
 const Resume = () => {
     
