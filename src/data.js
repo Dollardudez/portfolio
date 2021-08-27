@@ -49,7 +49,7 @@ export const projects = [
         `This project was completed as another semester long project at K-State. It has a full backend system written 
         in C#. The front end utilizes WPF in order to display the menu system. This was one of my first large projects. 
         I now help other students as a TA for this class.`,
-      image: "./media/bleakwind-buffet.png",
+      image: "./media/bleakwind-buffet.PNG",
       github: "https://github.com/Dollardudez/bleakwind-buffet",
       link: "",
     }
