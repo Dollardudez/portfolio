@@ -1,6 +1,6 @@
 import React from 'react';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
-import samplePDF from '../resume.pdf';
+import samplePDF from '../robert_clancy_2021.pdf';
 
 
 const Resume = () => {
