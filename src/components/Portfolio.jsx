@@ -15,7 +15,7 @@ const Portfolio = () => {
                 Apps I've Built
               </h1>
               <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                I was properly introduced to web development in May of 2020, since then, I've decided that 
+                I was properly introduced to web development in May of 2021, since then, I've decided that 
                 web development is the career for me. If some of these projects seem half finished, it is because they ARE!
                 I plan to continue working on these projects until I am satisfied with their aesthetic appeal and functionality.
               </p>
