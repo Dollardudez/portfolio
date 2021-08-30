@@ -1,21 +1,27 @@
 import React from 'react';
-import About from './components/About';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Contact from './components/Contact';
-import Portfolio from './components/Portfolio';
-import Resume from './components/Resume';
+import Index from './components/Index';
+import Video from './components/Video';
+
 
 
 
 
 const App = () => {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
+    <main className="text-gray-200 bg-purple-900 body-font">
       <Navbar />
-      <About />
-      <Portfolio />
-      <Resume/>
-      <Contact />
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <Index/>
+          </Route>
+          <Route exact path="/video">
+            <Video/>
+          </Route>
+        </Switch>
+      </Router>
     </main>
   );
 }
