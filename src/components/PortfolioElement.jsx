@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 class PortfolioElement extends React.Component {
     render(){
-        if (this.props.demoType) {
+        if (this.props.demoType != "video") {
             var link = (
                 <button onClick={()=> window.location.href=this.props.link} className="m-11 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

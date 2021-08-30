@@ -30,6 +30,7 @@ export const projects = [
       image: "./media/mhk-chests-2.PNG",
       github: "https://github.com/Dollardudez/MyWebAppProject",
       link: "https://peaceful-sierra-47377.herokuapp.com/",
+      demoType: "website"
     },
     {
       title: "World Cup Database",
