@@ -11,8 +11,9 @@ import Video from './components/Video';
 const App = () => {
   return (
     <main className="text-gray-200 bg-purple-900 body-font">
-      <Navbar />
       <Router>
+        <Navbar />
+      
         <Switch>
           <Route exact path="/">
             <Index/>
