@@ -18,8 +18,8 @@ export const projects = [
         `A little project to help me get better at Python. Basic functionality is all here. The game has power-ups, a level system, 
         and a points system. I plan optimise and prettify the game when I have more time.\n`,
       image: "./media/python-game.png",
-      github: "https://github.com/Dollardudez/AlienInvaders",
-      link: "",
+      github: "https://github.com/Dollardudez/rocketman",
+      link: "./media/rocketman.mp4",
     },
     {
       title: "Manhattan Chests",

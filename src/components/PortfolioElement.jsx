@@ -6,12 +6,15 @@ class PortfolioElement extends React.Component {
         
         if (this.props.demoType !== "video") {
             var link = (
-                <button onClick={()=> window.location.href=this.props.link} className="m-11 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 11l7-7 7 7M5 19l7-7 7 7" />
-                </svg>
-                Demo
-            </button>
+                <a href={this.props.link} target="_blank" rel="noreferrer">
+                    <button className="m-11 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 11l7-7 7 7M5 19l7-7 7 7" />
+                        </svg>
+                         Demo
+                    </button>
+                </a>
+                
             )
         } 
         else {
@@ -57,10 +60,13 @@ class PortfolioElement extends React.Component {
 
             </div>
 
-            <button onClick={()=> window.location.href=this.props.github} className="m-11 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-                <img src="./media/github.png"></img>
-                Code
-            </button>
+            <a href={this.props.github} target="_blank" rel="noreferrer">
+                <button className="m-11 bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                    <img src="./media/github.png"></img>
+                    Code
+                </button>
+            </a>
+            
 
             {link}
                 

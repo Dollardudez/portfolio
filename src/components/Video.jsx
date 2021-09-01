@@ -1,5 +1,5 @@
 import React from "react";
-import { useLocation, useHistory } from "react-router";
+import { useLocation } from "react-router";
 
 export default function Video() {
   const location = useLocation()
