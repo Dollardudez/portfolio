@@ -21,8 +21,8 @@ const Portfolio = () => {
                 I plan to continue working on these projects until I am satisfied with their aesthetic appeal and functionality.
               </p>
               <h3 className="lg:w-2/3 mx-auto leading-relaxed text-base text-yellow-300 mt-5">
-                ATTENTION! the only Demo link that works as of now is the MHK Chests link, Bleakwind Buffet video,
-                 and World Cup Database video.
+                The demo links that work are Bleakwind Buffet, Rocketman, Fifa Database, and MHK Chests. Some demo videos may be old
+                because I have updated the applications, but not their videos.
               </h3>
             </div>
             <div className="flex flex-wrap -m-4 flex-1">
