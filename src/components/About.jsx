@@ -20,7 +20,7 @@ const About = () => {
                   Shoot me a message
                 </a>
                 <a
-                  href="#projects"
+                  href="#portfolio"
                   className="ml-4 inline-flex text-gray-900 bg-yellow-400 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-500 hover:text-black rounded text-lg">
                   Look at my work
                 </a>

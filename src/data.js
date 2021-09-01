@@ -19,7 +19,7 @@ export const projects = [
         and a points system. I plan optimise and prettify the game when I have more time.\n`,
       image: "./media/python-game.png",
       github: "https://github.com/Dollardudez/rocketman",
-      link: "./media/rocketman.mp4",
+      link: "./media/rocketmanv1.1.mp4",
     },
     {
       title: "Manhattan Chests",
