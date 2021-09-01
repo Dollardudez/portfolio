@@ -1,9 +1,13 @@
 import React from "react";
-
-export default function Navbar() {
+import { useLocation } from "react-router";
+export default function Video() {
+  const location = useLocation()
+  console.log(location.state)
   return (
+    
       <video controls>
-          <source src={this.props.location.videoPath}/>
+          <source src={location.state.videoPath}/>
       </video>
   );
 }
+

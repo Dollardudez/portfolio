@@ -17,9 +17,7 @@ const App = () => {
           <Route exact path="/">
             <Index/>
           </Route>
-          <Route exact path="/video">
-            <Video/>
-          </Route>
+          <Route exact path="/video" component={Video}/>
         </Switch>
       </Router>
     </main>
