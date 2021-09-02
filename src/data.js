@@ -20,6 +20,7 @@ export const projects = [
       image: "./media/python-game.png",
       github: "https://github.com/Dollardudez/rocketman",
       link: "./media/rocketmanv1.2.mp4",
+      demoType: "video"
     },
     {
       title: "Manhattan Chests",
@@ -41,7 +42,7 @@ export const projects = [
         Nicholas Hornung, and Kevin Sutcliffe as a capstone project for CIS 560.`,
       image: "./media/world-cup-pic.png",
       github: "https://github.com/Dollardudez/CIS560-Team2",
-      link: "./media/fifa-database.mp4",
+      link: "./media/fifa-databasev1.1.mp4",
       demoType: "video"
     },
     {

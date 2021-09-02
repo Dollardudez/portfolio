@@ -7,7 +7,7 @@ export default function Video() {
   console.log(location)
   return (
       
-      <video controls>
+      <video width="1200" height="1000" controls>
           <source src={location.state.videoPath}/>
       </video>
   );
